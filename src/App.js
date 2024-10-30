@@ -1,3 +1,6 @@
+import React from 'react';
+import Board from './components/Board';
+
 function App() {
   return (
     <div className="App">
@@ -5,7 +8,7 @@ function App() {
         <h1>QuickBoard</h1>
         <p>Welcome to QuickBoard, your minimalistic Kanban app!</p>
       </header>
-      {/* Main board component TBA*/}
+      <Board />
     </div>
   );
 }
